@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  app:
+    image: marthinusswart/generic_vendor_management:latest
+    build:
+      context: app
+    ports:
+      - "5000:5000" 
